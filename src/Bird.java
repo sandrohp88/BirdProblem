@@ -15,7 +15,7 @@ public class Bird {
 
 
 
-    public void setTraveledDistance(double distance) {
+    public void setTraveledDistance(int distance) {
         this.traveledDistance += distance;
     }
 
