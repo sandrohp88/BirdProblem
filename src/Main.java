@@ -29,10 +29,7 @@ public class Main {
         // TODO: have each bird fly & hop
         flyAndHop(birds, World.temperature, World.windSpeed);
         // TODO: print total distances
-        for(Bird bird: birds){
-            bird.toString();
-            System.out.println(bird.getTraveledDistance());
-        }
+        birds.forEach(bird -> System.out.println(bird.toString()));
 
     }
 
